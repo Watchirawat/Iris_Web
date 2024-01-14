@@ -11,7 +11,6 @@ loaded_model = pk.load(open('model.pkl','rb'))
 
 # Dictionary containing the mapping
 variety_mappings = {0: 'Setosa', 1: 'Versicolor', 2: 'Virginica'}
-print('NeNe')
 # Function for classification based on inputs
 def classify(a, b, c, d):
     print('\n classifier is called \n')
